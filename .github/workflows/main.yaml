@@ -65,4 +65,6 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.RENDER_API_KEY }}" \
             https://api.render.com/v1/services/${{ secrets.SERVICE_ID }}/deploys
       
+  deploy:
+    needs: test
       
