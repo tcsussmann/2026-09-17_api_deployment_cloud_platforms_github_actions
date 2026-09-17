@@ -5,10 +5,10 @@ info:
   description: API documentation for the Mechanic Shop application.
   version: "1.0.0"
 
-host: 127.0.0.1:5000
+host: two026-09-17-api-deployment-cloud.onrender.com
 basePath: /
 schemes:
-  - http
+  - https
 
 paths:
   /customers/:
